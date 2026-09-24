@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente Front-End - Proyecto Formativo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Mi Proyecto Web</h2>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido al Módulo Front-End</h1>
+            <p>Interfaz desarrollada para la evidencia GA7-220501096-AA4-EV03.</p>
+        </section>
+
+        <!-- Formulario o componente interactivo -->
+        <section id="contacto">
+            <h2>Ingreso al Sistema</h2>
+            <form>
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" placeholder="Ingrese su usuario">
+
+                <label for="clave">Contraseña:</label>
+                <input type="password" id="clave" placeholder="Ingrese su contraseña">
+
+                <button type="button" onclick="saludar()">Ingresar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 SENA - ADSO | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
